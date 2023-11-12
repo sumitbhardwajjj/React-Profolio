@@ -1,13 +1,209 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding: 0;
+  background-color: black;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+
+}
+
+.nav{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+
+.nav h3{
+  color: yellow;
+}
+
+.nav-link{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.nav-link:hover{
+  color: orange;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid;
+}
+
+.download{
+  background-color: rgb(255, 102, 0);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Home section */
+
+.home{
+  padding: 10rem;
+  font-size: 1rem;
+}
+
+.home span{
+  color: yellow;
+}
+
+.home h1{
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.home h2{
+  padding-bottom: 30px;
+}
+
+.contact {
+  background-color: rgb(255, 102, 0);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+@media(max-width:750px){
+  .home{
+    padding: 5rem;
+  }
+}
+/* About section */
+
+.about{
+  padding: 3rem;
+}
+
+.about h1{
+  text-align: center;
+  padding: 10px;
+}
+
+.about h3{
+  text-align: center;
+}
+
+.icon{
+  padding: 10px;
+  max-width: 1200px;
+}
+.logo{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  
+}
+/* portfolio */
+
+.portfolio{
+  padding: 3rem;
+}
+
+.portfolio h1{
+  text-align: center;
+}
+
+.portfolio h3{
+  text-align: center;
+  padding: 30px;
+}
+
+.project{
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.portfolio img{
+  height: 200px;
+  width: 400px;
+  margin: 20px;
+}
+
+@media(max-width:750px){
+  .project{
+    flex-direction: column;
+    padding-right: 30px;
+  }
+  .portfolio img{
+    width: 100%;
+  }
+}
+/* Skills section */
+
+.skills{
+  padding: 3rem;
+}
+
+.skills h1{
+  padding: 10px;
+  text-align: center;
+}
+
+.language{
+  display: flex;
+  justify-content: center;
+ 
+}
+.list{
+  height: 200px;
+  padding: 20px;
+}
+
+@media(max-width:750px){
+  .language{
+    flex-direction: column; 
+  }
+}
+
+
+
+/* contact details */
+
+.details{
+  padding: 3rem;
+}
+
+.details h1{
+  text-align: center;
+  padding: 20px;
+}
+
+.details h3{
+  text-align: center;
+  padding: 20px;
+}
+
+.form{
+  display: flex ;
+  justify-content: center;
+  padding: 10px;
+}
+
+.input{
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.submit{
+  background-color: rgb(255, 102, 0);
+  width: 150px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.linkedin{
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin-logo{
+  padding: 2rem;
+  height: 40px;
 }
