@@ -22,7 +22,9 @@ const Navbar = () => {
         <Link  to='Portfolio'  smooth={true}  offset={-15} duration={500} className='nav-link'>Porfolio</Link>
         <Link  to='Skills'  smooth={true}  offset={5} duration={500} className='nav-link'>Skills</Link>
       </div>
-      <button className='download' onClick={()=>onButtonClick(resume_pdf)}>Download CV</button>
+    <div className='down'>
+    <button className='download' onClick={()=>onButtonClick(resume_pdf)}>Download CV</button>
+    </div>
     </div> 
   )
 }

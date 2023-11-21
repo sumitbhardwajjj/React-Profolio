@@ -10,7 +10,9 @@ const About = () => {
         visually appealing and user-friendly websites. I have a strong
         understanding of web development and a keen eye detail. I am proficient in HTML,CSS,JavaScript and React.js 
       </h3>
-    <div className="icon"><img className="logo" src="./image.png" alt="" /></div>
+    <div className="icon">
+      <img className="logo" src="./image.png" alt="" />
+      </div>
     </section>
   );
 };
