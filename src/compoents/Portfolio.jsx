@@ -15,7 +15,7 @@ const Portfolio = () => {
         </a>
       </div>
       <div className="project">
-        <a href="https://resposive-todo.vercel.app/">
+        <a href="https://todo-project-delta.vercel.app/">
           <img src="./image4.png" alt="" />
         </a>
         <a href="https://react-login-page-mu.vercel.app/">
