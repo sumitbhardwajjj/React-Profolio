@@ -15,12 +15,11 @@ const Portfolio = () => {
         </a>
       </div>
       <div className="project">
-        <a href="https://todo-project-delta.vercel.app/">
-          <img src="./image4.png" alt="" />
+        <a href="https://dash-board-react-theta.vercel.app/">
+          <img src="./dashboard.png" alt="" />
         </a>
-        <a href="https://react-login-page-mu.vercel.app/">
-          {" "}
-          <img src="./image5.avif" alt="" />
+        <a href="https://react-map-project.vercel.app/">
+          <img src="./ecom.png" alt="" />
         </a>
       </div>
     </section>
