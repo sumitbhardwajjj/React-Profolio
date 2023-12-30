@@ -2,7 +2,7 @@ import React from 'react'
 import '../index.css'
 import Navbar from './Navbar'
 
- const resume_pdf = 'http://localhost:3000/resume.pdf'
+ const resume_pdf = 'https://react-profolio.vercel.app/resume.pdf'
 
 const Home = () => {
 
