@@ -30,6 +30,10 @@
   flex: 1;
 }
 
+.language img{
+  border-radius: 20%;
+}
+
   .list{
     height: 200px;
     max-width: 300px;
@@ -39,7 +43,10 @@
   }
 
   .list:hover{
-    opacity: 0.5;
+    opacity: 0.8;
+    border-radius: none;
+    scale: 105%;
+    transition-duration: 1s;
   }
 
   @media(max-width:1250px){
