@@ -17,7 +17,7 @@
 }
 
 .header b {
-  color: #faf601;
+  color: #faf606;
 }
 
 .header span {
@@ -37,13 +37,14 @@
 }
 
 .contact {
-  background-color: #007bff;
   color: #fff;
+  font-weight: 600;
+  background-color: black;
 }
 
 .download {
-  background-color: #28a745;
-  color: #fff;
+  font-weight: 600;
+  background-color: white;
 }
 
 .head img {

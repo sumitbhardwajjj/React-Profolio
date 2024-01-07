@@ -5,6 +5,7 @@
 .details h1{
   text-align: center;
   padding: 20px;
+  color: #faf606;
 }
 
 .details h3{
@@ -20,11 +21,11 @@
 
 .input{
   width: 60%;
+  border: none;
   padding: 10px;
   font-size: 16px;
-  outline: 1px;
-  color: white;
-  background-color: rgb(48, 46, 46);
+  border-radius: 5px;
+  background-color: white;
 }
 
 .submit{

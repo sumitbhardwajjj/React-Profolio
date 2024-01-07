@@ -5,7 +5,7 @@
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    background-color: rgb(41, 39, 39);
+    background-color: teal;
   }
   
   .nav h3{
@@ -27,7 +27,6 @@
 
   @media(max-width:550px){
     .nav{
-      background-color: transparent;
       flex-direction: column;
     }
 
