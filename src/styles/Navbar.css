@@ -27,8 +27,8 @@
 
   @media(max-width:550px){
     .nav{
+      background-color: transparent;
       flex-direction: column;
-      position: fixed;
     }
 
     .nav h3{
