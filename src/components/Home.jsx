@@ -1,5 +1,5 @@
 import React from 'react'
-import '../index.css'
+import '../styles/Home.css'
 import Navbar from './Navbar'
 
  const resume_pdf = 'http://localhost:3000/resume.pdf'
@@ -20,13 +20,13 @@ const Home = () => {
    <div>
      <Navbar/>
    <div className='home'>
-   <h1>Welcome</h1>
-    <h2> I am <span>Sumit Bhardwaj</span> and I am 21 years old , from Mumbai India.
-    I study full stack web development at almabetter
-    My hobbies is programming and web development</h2>
+   <div className='header'> 
+    <h2>Hi, I am <b>Sumit Bhardwaj</b><br /><span>I am 21 years old , from Mumbai India.
+    I study full stack web development at almabetter <br /> My hobbies is programming and web development</span></h2>
     <button className='contact' onClick={()=>{document.getElementById('Contacts').scrollIntoView({behavior:'smooth'})}}>Contact Me</button>
     <button className='download' onClick={()=>onButtonClick(resume_pdf)}>Download CV</button>
-   </div>
+  </div>
+    <div className='head'><img src="Group.png" alt="" /></div></div>
    </div>
   )
 }

@@ -1,0 +1,73 @@
+/* Base styles */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: white;
+}
+
+.header b {
+  color: #faf601;
+}
+
+.header span {
+  font-size: 18px;
+  color: white;
+}
+
+.contact,
+.download {
+  padding: 10px ;
+  margin-top: 50px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.download {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.head img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+@media(max-width:550px){
+
+  .header{
+    padding-top: 5rem;
+  }
+}
+
+@media(max-width:800px){
+
+  .header{
+    margin: 20px;
+    position: absolute;
+  }
+
+  .home{
+    justify-content: center;
+  }
+}
