@@ -2,6 +2,8 @@ import React from 'react'
 import '../styles/Contact.css'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contacts= () => {
 
@@ -17,6 +19,9 @@ const Contacts= () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          e.target.reset();
+          toast.success("email Sent");
+       
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -44,6 +49,7 @@ const Contacts= () => {
         <a href="https://www.linkedin.com/in/sumit-bhardwaj-86a80620a/"><img className='linkedin-logo' src="linkedin.png" alt="" /></a>
         </div>
       </form>
+      <ToastContainer />
     </div>
   )
 }
